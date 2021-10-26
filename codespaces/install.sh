@@ -8,7 +8,7 @@ zshrc() {
     echo "                  Import zshrc                   "
     echo "-----------------------------------------------------------"
     cd $HOME/dotfiles
-    cat ./codespaces/zshrc > $HOME/.zshrc
+    cat /workspaces/.codespaces/.persistedshare/dotfiles/codespaces/.zshrc > $HOME/.zshrc
 }
 
 zshrc
