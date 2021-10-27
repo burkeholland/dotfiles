@@ -10,7 +10,7 @@ zshrc() {
     echo "==========================================================="
     echo "                  Import zshrc                             "
     echo "-----------------------------------------------------------"
-    cat /workspaces/.codespaces/.persistedshare/dotfiles/.zshrc > $HOME/.zshrc
+    cat .zshrc > $HOME/.zshrc
 }
 
 zshrc
