@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# Install the auto-suggestions plugin 
-
 zshrc() {
     echo "==========================================================="
     echo "             cloning zsh-autosuggestions                   "
