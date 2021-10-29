@@ -8,7 +8,7 @@ zshrc() {
     echo "==========================================================="
     echo "                 cloning zsh-zsh-nvm                       "
     echo "-----------------------------------------------------------"                 
-    git clone https://github.com/lukechilds/zsh-nvm ${ZSH_CUSTOM:~/.oh-my-zsh/custom}/plugins/zsh-nvm
+    git clone https://github.com/lukechilds/zsh-nvm ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-nvm
     echo "==========================================================="
     echo "                  Import zshrc                             "
     echo "-----------------------------------------------------------"
