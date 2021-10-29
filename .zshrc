@@ -5,4 +5,3 @@ ZSH_THEME="cloud"
 plugins=(git zsh-nvm zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh_plugins.sh
