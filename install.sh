@@ -10,7 +10,7 @@ zshrc() {
     echo "-----------------------------------------------------------"                 
     git clone https://github.com/lukechilds/zsh-nvm ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-nvm
     echo "==========================================================="
-    echo "                 Copy zshrc to HOME                        "
+    echo "                 Copy .zshrc to HOME                       "
     echo "-----------------------------------------------------------"
     cat .zshrc > $HOME/.zshrc
 }
